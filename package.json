@@ -2,7 +2,7 @@
   "name": "vercel-cloud",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
+    "build": "turbo run build --output dist",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -13,7 +13,7 @@
     "turbo": "^2.4.4",
     "typescript": "5.8.2"
   },
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@9.1.0",
   "engines": {
     "node": ">=18"
   }
